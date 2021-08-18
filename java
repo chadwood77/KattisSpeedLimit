@@ -7,16 +7,18 @@ public class SpeedLimit {
 		int numOfTrips = scan.nextInt();
 		int speed, time, dist = 0;
 		for (int i = 0; i < numOfTrips; i++) {
-			if (numOfTrips != -1)
-				break;
 			if (numOfTrips == -1)
 				break;
+			if (numOfTrips != -1)
+				;
+
 			speed = scan.nextInt();
 			time = scan.nextInt();
 			dist = speed * time;
 
 		}
 		System.out.println(dist + "miles");
+	scan.close();
 	}
 
 }
