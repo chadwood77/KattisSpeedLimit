@@ -7,8 +7,8 @@ public class SpeedLimit {
 		int numOfTrips = scan.nextInt();
 		int speed, time, dist = 0;
 		for (int i = 0; i < numOfTrips; i++) {
-			if (numOfTrips != -1) break
-				;
+			if (numOfTrips != -1)
+				break;
 			if (numOfTrips == -1)
 				break;
 			speed = scan.nextInt();
